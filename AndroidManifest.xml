@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.travelbilltrackingsystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.travelbilltrackingsystem.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.travelbilltrackingsystem.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.Homepage"
+            android:label="@string/title_activity_homepage" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.EmpReg"
+            android:label="@string/title_activity_emp_reg" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.EmpLogin"
+            android:label="@string/title_activity_emp_login" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.AdminLogin"
+            android:label="@string/title_activity_admin_login" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.AdminHome"
+            android:label="@string/title_activity_admin_home" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.BillInfo"
+            android:label="@string/title_activity_bill_info" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.StatusOfApp"
+            android:label="@string/title_activity_status_of_app" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.EmpInfo"
+            android:label="@string/title_activity_emp_info" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.EmpHome"
+            android:label="@string/title_activity_emp_home" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.BillForm"
+            android:label="@string/title_activity_bill_form" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.BillStatus"
+            android:label="@string/title_activity_bill_status" >
+        </activity>
+        <activity
+            android:name="com.travelbilltrackingsystem.Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+    </application>
+
+</manifest>
